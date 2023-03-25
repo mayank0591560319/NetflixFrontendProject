@@ -1,0 +1,122 @@
+.first{
+
+    height: 720px;
+    width: 100%;
+    overflow: hidden;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("Netflix_Images/first-bg.jpg");
+}
+.first-gradient{
+    z-index: 100;
+    
+}
+
+.first-image{
+
+    object-fit: contain;
+
+}
+.first-text{
+    width: 800px;
+    /* height: 1000px; */
+    top:200px;
+    left: 400px;
+
+    /* line-height: 720px; */
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    
+    position: absolute;
+
+}
+.first-text2{
+    top: 410px;
+    left: 580px;
+    width: 800px;
+    font-size: 28px;
+    position: absolute;
+    color: white;
+}
+.first-text3{
+    top: 480px;
+    left: 450px;
+    width: 800px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    position: absolute;
+    color: white;
+}
+.first-text4{
+    position:relative;
+    top:550px;
+    left: 400px;
+    display: flex;
+}
+.first-input{
+    width: 500px;
+    height: 60px;
+}
+.first-submit{
+    padding: 0px;
+    margin: 0px;
+    width: 270px;
+    height: 60px;
+    font-size: 30px;
+    background-color:red;
+    color: white;
+
+}
+.second{
+    background-color:black;
+    /* width: 1600px; */
+    z-index: 1;
+    
+    height: 500px;
+    overflow-x: hidden;
+}
+
+.second-left{
+    width: 200px;
+    /* float: left; */
+}
+.second-right{
+    z-index: 10;
+    width: 100px;
+    /* float: right; */
+}
+/* .second::after{
+    content: "";
+    clear: both;
+    display: block;
+} */
+.second-text1{
+    width: 500px;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    color: white;
+    font-size: 53px;
+}
+.second-text2{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    width: 500px;
+    font-size:25px;    
+    color: white;
+}
+.second-img{
+    width: 410px;
+    position: absolute;
+    top: 810px;
+    left: 1000px;
+    z-index: 20;
+}
+.second-vid{
+    top: 808px;
+    left: 1053px;
+    /* z-index: 19; */
+    position: absolute;
+}
